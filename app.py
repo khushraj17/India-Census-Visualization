@@ -31,6 +31,7 @@ if analysis_type == "Overall Analysis":
     st.plotly_chart(fig)
 
 elif analysis_type == "State Analysis":
+    
     state = st.sidebar.selectbox("Select State", df["State"].unique())
     primary_param = st.sidebar.selectbox("Select Primary Parameter", ["Population", "Male", "Female", "Literate"])
     secondary_param = st.sidebar.selectbox("Select Secondary Parameter", ["Population", "Male", "Female", "Literate"])

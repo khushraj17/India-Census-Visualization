@@ -5,7 +5,7 @@ import plotly.graph_objects as go
 import streamlit as st
 
 st.set_page_config(page_title="India Census Data Analysis", page_icon=":bar_chart:", layout="wide")
-df = pd.read_csv("dataset/India.csv")
+df = pd.read_csv("dataset/india.csv")
 l = list(df['State'].unique())
 l.insert(0,"Overall Analysis")
 
@@ -31,7 +31,7 @@ if analysis_type == "Overall Analysis":
     st.plotly_chart(fig)
 
 elif analysis_type == "State Analysis":
-    
+
     state = st.sidebar.selectbox("Select State", df["State"].unique())
     primary_param = st.sidebar.selectbox("Select Primary Parameter", ["Population", "Male", "Female", "Literate"])
     secondary_param = st.sidebar.selectbox("Select Secondary Parameter", ["Population", "Male", "Female", "Literate"])

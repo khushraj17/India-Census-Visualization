@@ -80,3 +80,6 @@ project-folder/
 ├── requirements.txt 
 └── README.md
 ```
+## 👨‍💻 Author
+
+## KHUSHRAJ RANE

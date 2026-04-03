@@ -71,4 +71,12 @@ All visualizations are presented on an **interactive geographical map** for bett
 ---
 
 ## 📂 Project Structure
-
+```
+project-folder/ 
+│ 
+├── app.py 
+├── dataset/ 
+│ └── india.csv 
+├── requirements.txt 
+└── README.md
+```

@@ -1,4 +1,4 @@
-# 🇮🇳 India Census Data Analysis Dashboard
+#  India Census Data Analysis Dashboard
 
 <p align="center">
   <img src="https://img.shields.io/badge/Python-3.10-blue?style=for-the-badge&logo=python">
@@ -9,7 +9,6 @@
 
 ---
 
-## 📌 Overview
 An interactive **data visualization dashboard** built using **Streamlit** and **Plotly** to analyze India's census data.
 
 This project enables users to explore demographic insights such as:
@@ -21,12 +20,12 @@ All visualizations are presented on an **interactive geographical map** for bett
 
 ---
 
-## 🚀 Live Demo
+##  Live Demo
 👉 *([Clich Here for live DEMO](https://ind-census-visualization.streamlit.app/))*
 
 ---
 
-## 📸 Screenshots
+##  Screenshots
 
 ### 🔹 Overall Analysis
 ![Overall](https://via.placeholder.com/800x400.png?text=Overall+Analysis+Map)
@@ -36,30 +35,30 @@ All visualizations are presented on an **interactive geographical map** for bett
 
 ---
 
-## ✨ Key Features
+##  Key Features
 
-### 🌍 Interactive Map Visualization
+###  Interactive Map Visualization
 - Scatter map with district-level insights
 - Hover to view detailed information
 
-### 📊 Dual Parameter Comparison
+###  Dual Parameter Comparison
 - Compare two metrics simultaneously:
   - Population
   - Male
   - Female
   - Literate
 
-### 🏙️ State-Level Analysis
+###  State-Level Analysis
 - Filter data by state
 - Deep dive into district-level patterns
 
-### ⚡ Fast & Responsive UI
+###  Fast & Responsive UI
 - Built with Streamlit for smooth interaction
 - Dynamic updates based on user input
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 | Technology | Purpose |
 |----------|--------|
@@ -70,7 +69,7 @@ All visualizations are presented on an **interactive geographical map** for bett
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
 ```
 project-folder/ 
 │ 

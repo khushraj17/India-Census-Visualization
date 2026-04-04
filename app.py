@@ -20,8 +20,8 @@ avg_litracy_rate = round((total_lit/total_pop)*100,2)
 sex_ratio = round((df['Female'].sum()/df['Male'].sum())*1000)
 
 col1, col2 ,col3, col4= st.columns(4)
-col1.metric("Total Population", f"{str(total_pop)[:3]} Cr")
-col2.metric("Total Literate", f"{str(total_lit)[:2]} Cr")
+col1.metric("Total Population", f"{(total_pop)/10000000:.2f} Cr")
+col2.metric("Total Literate", f"{(total_lit)/10000000:.2f} Cr")
 col3.metric("Average Literacy Rate", f"{avg_litracy_rate}%")
 col4.metric("Sex ratio ",sex_ratio)
 

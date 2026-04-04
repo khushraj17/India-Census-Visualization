@@ -28,10 +28,15 @@ All visualizations are presented on an **interactive geographical map** for bett
 ##  Screenshots
 
 ### 🔹 Overall Analysis
-![Overall](https://via.placeholder.com/800x400.png?text=Overall+Analysis+Map)
+
+<p align="center">
+  <img src="dataset/overall.png" width="800"/>
+</p>
 
 ### 🔹 State Analysis
-![State](https://via.placeholder.com/800x400.png?text=State+Analysis+Map)
+<p align="center">
+  <img src="dataset/state.png" width="800"/>
+</p>
 
 ---
 

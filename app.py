@@ -4,7 +4,7 @@ import plotly.express as px
 import plotly.graph_objects as go
 import streamlit as st
 
-st.set_page_config(page_title="India Census Data Analysis", page_icon=":bar_chart:", layout="wide")
+st.set_page_config(page_title="India Census Dashboard", page_icon=":bar_chart:", layout="wide")
 
 #------------------------------------------------------------
 
@@ -28,7 +28,7 @@ col4.metric("Sex ratio ",sex_ratio)
 #----------------------------------------------------------
 
 
-st.sidebar.title("India Census Data Analysis")
+st.sidebar.title("India Census Dashboard")
 analysis_type = st.sidebar.selectbox("Select Analysis Type", ['None',"Overall Analysis", "State Analysis"])
 # btn1 = st.sidebar.button("submit")
 
